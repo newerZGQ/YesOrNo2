@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- related to activity main -->
+    <dimen name="activity_main_background_margintop">450dp</dimen>
+
+    <!-- related to fragment oneitems -->
+    <dimen name="fragment_oneitems_yoncounter_height_and_width">275dp</dimen>
+    <dimen name="fragment_oneitems_yoncounter_margintop">30dp</dimen>
+    <dimen name="fragment_oneitems_yoncounter_marginbottom">20dp</dimen>
+    <dimen name="fragment_oneitems_buttons_layout_height">250dp</dimen>
+    <dimen name="fragment_oneitems_buttons_smaller_height_and_width">50dp</dimen>
+    <dimen name="fragment_oneitems_bottom_buttons_icon_inset">10dp</dimen>
+    <dimen name="fragment_oneitems_bottom_buttons_margin_to_center">50dp</dimen>
+
+    <!-- related to fragment threeitems -->
+    <dimen name="fragment_threeitems_buttons_layout_height">250dp</dimen>
+    <dimen name="fragment_threeitems_counter_height_and_width">275dp</dimen>
+    <dimen name="fragment_threeitems_yon_height_and_height">100dp</dimen>
+
+    <!-- related to fragment fouritems -->
+    <dimen name="fragment_fouritems_yon_height_and_height">80dp</dimen>
+
+
+    <!-- related to customview_bottom_buttons -->
+    <dimen name="customview_bottom_buttons_smaller_height_and_width">50dp</dimen>
+    <dimen name="customview_bottom_buttons_marginleft">30dp</dimen>
+    <dimen name="customview_bottom_buttons_marginright">30dp</dimen>
+
+</resources>

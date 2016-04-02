@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/bottom_buttons_1"
+        android:layout_width="@dimen/customview_bottom_buttons_smaller_height_and_width"
+        android:layout_height="@dimen/customview_bottom_buttons_smaller_height_and_width"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/bottom_buttons_2"
+        android:layout_marginEnd="@dimen/fragment_oneitems_bottom_buttons_margin_to_center"
+        android:background="@drawable/fragment_three_items_btom_btn_bg_mode"
+        android:dropDownHorizontalOffset="-40dp"
+        android:dropDownVerticalOffset="-100dp"
+        android:entries="@array/fragment_three_items_spinner_title"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:background="@drawable/myview_bottom_buttons_icon_start"
+        android:id="@+id/bottom_buttons_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_toEndOf="@+id/bottom_buttons_2"
+        android:layout_marginStart="@dimen/fragment_oneitems_bottom_buttons_margin_to_center"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:id="@+id/bottom_buttons_3"
+        android:background="@drawable/fragment_one_items_btom_btn_bg_reset"
+        android:layout_width="@dimen/customview_bottom_buttons_smaller_height_and_width"
+        android:layout_height="@dimen/customview_bottom_buttons_smaller_height_and_width" />
+</RelativeLayout>

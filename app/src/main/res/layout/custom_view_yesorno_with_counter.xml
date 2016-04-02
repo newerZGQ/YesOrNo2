@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.github.glomadrian.dashedcircularprogress.DashedCircularProgress xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:base_color="#6effffff"
+        custom:duration="3500"
+        custom:external_color="#1affffff"
+        custom:max="50"
+        custom:min="0"
+        custom:progress_color="@color/colorWhite">
+        //Put here any view you like to be inside progress bar
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+            <com.yesorno.zgq.yesorno.customview.YesOrNoView xmlns:app="http://schemas.android.com/apk/res/com.yesorno.zgq.yesorno"
+                android:id="@+id/yes_or_no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:first_item_color="@color/colorWhite"
+                app:first_item_title="Yes"
+                app:item_count="2"
+                app:secod_item_title="No" />
+        </LinearLayout>
+    </com.github.glomadrian.dashedcircularprogress.DashedCircularProgress>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    //related to activitymain
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorActivityMainBackground1">#008171</color>
+    <color name="colorActivityMainBackground2">#237EAD</color>
+    <color name="colorActivityMainBackground3">#369445</color>
+    <color name="colorActivityMainBackground4">#728D98</color>
+    //related to fragments
+    <color name="colorFragmentsBottomBackground">#F8F8F8</color>
+
+    //related to customview_bottom_buttons_circle_color
+    <color name="colorBottomButtonsCircle">#BBBBBB</color>
+    <color name="colorBottomButtonsInnerCircle">#E0E0E0</color>
+
+</resources>

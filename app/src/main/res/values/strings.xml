@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YesOrNo</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Related to MainActivity -->
+    <string name="one_items_title">二分之一</string>
+    <string name="thr_items_title">三分之X</string>
+    <string name="fou_items_title">四分之X</string>
+    <string name="ctm_items_title">自定义</string>
+</resources>

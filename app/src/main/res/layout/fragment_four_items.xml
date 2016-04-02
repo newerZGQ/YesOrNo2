@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yesorno.zgq.yesorno.fragment.ThreeItemsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.github.glomadrian.dashedcircularprogress.DashedCircularProgress
+        android:layout_marginTop="@dimen/fragment_oneitems_yoncounter_margintop"
+        android:layout_marginBottom="@dimen/fragment_oneitems_yoncounter_marginbottom"
+        android:layout_width="@dimen/fragment_oneitems_yoncounter_height_and_width"
+        android:layout_height="@dimen/fragment_oneitems_yoncounter_height_and_width"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/circle_progress"
+        custom:base_color="#6effffff"
+        custom:duration="3500"
+        custom:progress_icon="@drawable/myview_counter_top_icon_reset"
+        custom:external_color="#1affffff"
+        custom:max="60"
+        custom:min="0"
+        custom:progress_color="@color/colorWhite">
+        <FrameLayout
+            xmlns:app="http://schemas.android.com/apk/res/com.yesorno.zgq.yesorno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.yesorno.zgq.yesorno.customview.YesOrNoView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/yes_or_no1"
+                android:layout_marginTop="-25dp"
+                android:layout_width="@dimen/fragment_fouritems_yon_height_and_height"
+                android:layout_height="@dimen/fragment_fouritems_yon_height_and_height"
+                app:first_item_color="@color/colorWhite"
+                app:first_item_title="Y"
+                app:item_count="2"
+                app:secod_item_title="N" />
+            <com.yesorno.zgq.yesorno.customview.YesOrNoView
+                android:id="@+id/yes_or_no2"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/fragment_fouritems_yon_height_and_height"
+                android:layout_height="@dimen/fragment_fouritems_yon_height_and_height"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="-50dp"
+                app:first_item_color="@color/colorWhite"
+                app:first_item_title="Y"
+                app:item_count="2"
+                app:secod_item_title="N" />
+            <com.yesorno.zgq.yesorno.customview.YesOrNoView
+                android:id="@+id/yes_or_no3"
+                android:layout_width="@dimen/fragment_fouritems_yon_height_and_height"
+                android:layout_height="@dimen/fragment_fouritems_yon_height_and_height"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center_horizontal"
+                app:first_item_color="@color/colorWhite"
+                app:first_item_title="Y"
+                app:item_count="2"
+                app:secod_item_title="N" />
+            <com.yesorno.zgq.yesorno.customview.YesOrNoView
+                android:id="@+id/yes_or_no4"
+                android:layout_width="@dimen/fragment_fouritems_yon_height_and_height"
+                android:layout_height="@dimen/fragment_fouritems_yon_height_and_height"
+                android:layout_marginTop="85dp"
+                android:layout_gravity="center_horizontal"
+                app:first_item_color="@color/colorWhite"
+                app:first_item_title="Y"
+                app:item_count="2"
+                app:secod_item_title="N" />
+        </FrameLayout>
+    </com.github.glomadrian.dashedcircularprogress.DashedCircularProgress>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorFragmentsBottomBackground"
+        android:orientation="vertical">
+        <include
+            layout="@layout/fragment_three_items_bottom_buttons"
+            android:id="@+id/one_items_bottom_buttons" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fragment_three_items_spinner_title">
+        <item>三分之一</item>
+        <item>三分之二</item>
+    </string-array>
+    <string-array name="fragment_four_items_spinner_title">
+        <item>四分之一</item>
+        <item>四分之二</item>
+        <item>四分之三</item>
+    </string-array>
+</resources>

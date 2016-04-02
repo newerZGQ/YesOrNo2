@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+    <solid android:color="@color/colorBottomButtonsInnerCircle"/>
+    <stroke android:width="1sp"
+        android:color="@color/colorBottomButtonsCircle">
+    </stroke>
+    <size android:width="@dimen/fragment_oneitems_buttons_smaller_height_and_width"
+        android:height="@dimen/fragment_oneitems_buttons_smaller_height_and_width"/>
+
+</shape>

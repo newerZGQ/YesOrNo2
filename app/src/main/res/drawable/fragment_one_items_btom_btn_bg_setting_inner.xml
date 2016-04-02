@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/myview_bottom_buttons_icon_setting"
+    android:insetTop="@dimen/fragment_oneitems_bottom_buttons_icon_inset"
+    android:insetBottom="@dimen/fragment_oneitems_bottom_buttons_icon_inset"
+    android:insetLeft="@dimen/fragment_oneitems_bottom_buttons_icon_inset"
+    android:insetRight="@dimen/fragment_oneitems_bottom_buttons_icon_inset">
+</inset>
