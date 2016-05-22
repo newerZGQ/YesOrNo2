@@ -10,8 +10,8 @@
     <com.github.glomadrian.dashedcircularprogress.DashedCircularProgress
         android:layout_marginTop="@dimen/fragment_oneitems_yoncounter_margintop"
         android:layout_marginBottom="@dimen/fragment_oneitems_yoncounter_marginbottom"
-        android:layout_width="@dimen/fragment_oneitems_yoncounter_height_and_width"
-        android:layout_height="@dimen/fragment_oneitems_yoncounter_height_and_width"
+        android:layout_width="@dimen/fragment_oneitems_yoncounter_width"
+        android:layout_height="@dimen/fragment_oneitems_yoncounter_height"
         android:layout_gravity="center_horizontal|center_vertical"
         android:gravity="center_horizontal"
         android:id="@+id/circle_progress"
@@ -26,10 +26,22 @@
             xmlns:app="http://schemas.android.com/apk/res/com.yesorno.zgq.yesorno"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <com.yesorno.zgq.yesorno.customview.SignOfCircle xmlns:app="http://schemas.android.com/apk/res/com.yesorno.zgq.yesorno"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:cirlce_color="@color/colorSignOfCircle"
+                app:first_sign="1"
+                app:mode="3"
+                app:second_sign="2"
+                app:text_color="@color/colorSignOfCircle"
+                app:text_size="8sp"
+                app:third_sign="3"
+                app:forth_sign="4"/>
             <com.yesorno.zgq.yesorno.customview.YesOrNoView
                 android:layout_gravity="center_horizontal"
                 android:id="@+id/yes_or_no1"
-                android:layout_marginTop="-20dp"
+                android:layout_marginTop="-35dp"
                 android:layout_width="@dimen/fragment_threeitems_yon_height_and_height"
                 android:layout_height="@dimen/fragment_threeitems_yon_height_and_height"
                 app:first_item_color="@color/colorWhite"
@@ -41,8 +53,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_width="@dimen/fragment_threeitems_yon_height_and_height"
                 android:layout_height="@dimen/fragment_threeitems_yon_height_and_height"
-                android:layout_marginTop="50dp"
-                android:layout_marginLeft="-40dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="-47dp"
                 app:first_item_color="@color/colorWhite"
                 app:first_item_title="Y"
                 app:item_count="2"
@@ -51,8 +63,8 @@
                 android:id="@+id/yes_or_no3"
                 android:layout_width="@dimen/fragment_threeitems_yon_height_and_height"
                 android:layout_height="@dimen/fragment_threeitems_yon_height_and_height"
-                android:layout_marginTop="50dp"
-                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="47dp"
                 android:layout_gravity="center_horizontal"
                 app:first_item_color="@color/colorWhite"
                 app:first_item_title="Y"
@@ -69,7 +81,6 @@
         android:background="@color/colorFragmentsBottomBackground"
         android:orientation="vertical">
         <include
-            layout="@layout/fragment_three_items_bottom_buttons"
-            android:id="@+id/one_items_bottom_buttons" />
+            layout="@layout/fragment_three_items_bottom_buttons" />
     </LinearLayout>
 </LinearLayout>

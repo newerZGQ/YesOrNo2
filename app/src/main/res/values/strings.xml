@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">YesOrNo</string>
+    <string name="app_name">做决定</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -8,4 +8,11 @@
     <string name="thr_items_title">三分之X</string>
     <string name="fou_items_title">四分之X</string>
     <string name="ctm_items_title">自定义</string>
+
+    <!-- related to fragment custom items -->
+    <string name="ctm_items_start_title">自定义</string>
+    <string name="ctm_items_tyring_title">Trying...</string>
+    <string name="ctm_items_done_title">Done!</string>
+    <string name="ctm_items_plus_title">+</string>
+    <string name="ctm_items_minus_title">-</string>
 </resources>

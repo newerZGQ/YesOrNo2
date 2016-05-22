@@ -1,17 +1,50 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:custom="http://schemas.android.com/apk/res-auto"
-    tools:context="com.yesorno.zgq.yesorno.fragment.CustomItemsFragment">
+    tools:context="com.yesorno.zgq.yesorno.fragment.ThreeItemsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <com.yesorno.zgq.yesorno.customview.YesOrNOWithCounter
-        android:id="@+id/one_items_1_yn_counter"
+    <com.github.glomadrian.dashedcircularprogress.DashedCircularProgress
         android:layout_marginTop="@dimen/fragment_oneitems_yoncounter_margintop"
+        android:layout_marginBottom="@dimen/fragment_oneitems_yoncounter_marginbottom"
+        android:layout_width="@dimen/fragment_oneitems_yoncounter_width"
+        android:layout_height="@dimen/fragment_oneitems_yoncounter_height"
         android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_width="@dimen/fragment_oneitems_yoncounter_height_and_width"
-        android:layout_height="@dimen/fragment_oneitems_yoncounter_height_and_width">
-    </com.yesorno.zgq.yesorno.customview.YesOrNOWithCounter>
-
-</FrameLayout>
+        android:gravity="center_horizontal"
+        android:id="@+id/circle_progress"
+        custom:base_color="#6effffff"
+        custom:duration="3500"
+        custom:progress_icon="@drawable/myview_counter_top_icon_reset"
+        custom:external_color="#1affffff"
+        custom:max="60"
+        custom:min="0"
+        custom:progress_color="@color/colorWhite">
+        <FrameLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/start_tv"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/ctm_items_start_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"/>
+        </FrameLayout>
+    </com.github.glomadrian.dashedcircularprogress.DashedCircularProgress>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorFragmentsBottomBackground"
+        android:orientation="vertical">
+        <include
+            layout="@layout/fragment_custom_items_bottom_buttons" />
+    </LinearLayout>
+</LinearLayout>

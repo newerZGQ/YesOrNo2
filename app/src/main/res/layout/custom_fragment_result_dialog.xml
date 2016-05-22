@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:gravity="center_horizontal|center_vertical">
+    <TextView
+        android:text="做决定！！"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@color/colorActivityMainBackground4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <GridView
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:numColumns="3"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/result_gv" />
+</LinearLayout>

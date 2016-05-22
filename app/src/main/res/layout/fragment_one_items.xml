@@ -10,8 +10,8 @@
     <com.github.glomadrian.dashedcircularprogress.DashedCircularProgress
         android:layout_marginTop="@dimen/fragment_oneitems_yoncounter_margintop"
         android:layout_marginBottom="@dimen/fragment_oneitems_yoncounter_marginbottom"
-        android:layout_width="@dimen/fragment_oneitems_yoncounter_height_and_width"
-        android:layout_height="@dimen/fragment_oneitems_yoncounter_height_and_width"
+        android:layout_width="@dimen/fragment_oneitems_yoncounter_width"
+        android:layout_height="@dimen/fragment_oneitems_yoncounter_height"
         android:layout_gravity="center_horizontal|center_vertical"
         android:gravity="center_horizontal"
         android:id="@+id/circle_progress"
@@ -35,7 +35,7 @@
                 app:first_item_color="@color/colorWhite"
                 app:first_item_title="Yes!"
                 app:item_count="2"
-                app:secod_item_title="No....." />
+                app:secod_item_title="No.." />
         </LinearLayout>
     </com.github.glomadrian.dashedcircularprogress.DashedCircularProgress>
     <LinearLayout
@@ -47,7 +47,6 @@
         android:background="@color/colorFragmentsBottomBackground"
         android:orientation="vertical">
         <include
-            layout="@layout/fragment_one_items_bottom_buttons"
-            android:id="@+id/one_items_bottom_buttons" />
+            layout="@layout/fragment_one_items_bottom_buttons" />
     </LinearLayout>
 </LinearLayout>

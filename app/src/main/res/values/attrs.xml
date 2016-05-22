@@ -13,4 +13,35 @@
         <attr name="target_title" format="integer"/>
 
     </declare-styleable>
+    <declare-styleable name="SignOfCircle">
+        <attr name="mode" format="integer"/>
+        <attr name="first_sign" format="string"/>
+        <attr name="second_sign" format="string"/>
+        <attr name="third_sign" format="string"/>
+        <attr name="forth_sign" format="string"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="cirlce_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SnappingStepper">
+        <attr name="snappingstepper_min" format="integer"/>
+        <attr name="snappingstepper_max" format="integer"/>
+        <attr name="value" format="integer"/>
+        <attr name="step" format="integer"/>
+        <attr name="text" format="string"/>
+        <attr name="snappingstepper_mode" format="enum">
+            <enum name="auto" value="0"/>
+            <enum name="custom" value="1"/>
+        </attr>
+        <attr name="stepper_background" format="color|reference"/>
+        <attr name="stepper_buttonBackground" format="color|reference"/>
+        <attr name="stepper_contentBackground" format="color|reference"/>
+        <attr name="stepper_contentTextColor" format="color"/>
+        <attr name="stepper_contentTextSize" format="float"/>
+        <attr name="stepper_leftButtonBackground" format="color|reference"/>
+        <attr name="stepper_rightButtonBackground" format="color|reference"/>
+        <attr name="stepper_leftButtonResources" format="color|reference"/>
+        <attr name="stepper_rightButtonResources" format="color|reference"/>
+    </declare-styleable>
 </resources>

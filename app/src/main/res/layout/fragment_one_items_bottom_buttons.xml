@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:clickable="true"
-        android:background="@drawable/myview_bottom_buttons_icon_start"
+        android:background="@drawable/fragment_one_items_btom_btn_bg_start"
         android:id="@+id/bottom_buttons_2"
         android:layout_width="60dp"
         android:layout_height="60dp" />

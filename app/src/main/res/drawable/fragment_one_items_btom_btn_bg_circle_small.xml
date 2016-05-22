@@ -5,7 +5,5 @@
     <stroke android:width="1sp"
         android:color="@color/colorBottomButtonsCircle">
     </stroke>
-    <size android:width="@dimen/fragment_oneitems_buttons_smaller_height_and_width"
-        android:height="@dimen/fragment_oneitems_buttons_smaller_height_and_width"/>
 
 </shape>

@@ -79,16 +79,11 @@ public class YesOrNoView extends View {
         secodItemTitle = typedArray.getString(R.styleable.YesOrNoView_secod_item_title);
         firstItemColor = typedArray.getColor(R.styleable.YesOrNoView_first_item_color, itemColorDef);
         init();
-        Log.d("one_yon", "oncreateview");
         initPaint();
     }
 
     public YesOrNoView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-    }
-
-    public YesOrNoView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
     }
 
     private void init() {
@@ -213,7 +208,6 @@ public class YesOrNoView extends View {
     }
 
     public void start() {
-        Log.d("------>>","start");
         setBlinkingStatus(true);
         setViewStatusRunning();
         if (listener != null) {

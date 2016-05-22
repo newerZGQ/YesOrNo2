@@ -7,7 +7,8 @@
     <dimen name="activity_main_background_margintop">450dp</dimen>
 
     <!-- related to fragment oneitems -->
-    <dimen name="fragment_oneitems_yoncounter_height_and_width">275dp</dimen>
+    <dimen name="fragment_oneitems_yoncounter_width">275dp</dimen>
+    <dimen name="fragment_oneitems_yoncounter_height">280dp</dimen>
     <dimen name="fragment_oneitems_yoncounter_margintop">30dp</dimen>
     <dimen name="fragment_oneitems_yoncounter_marginbottom">20dp</dimen>
     <dimen name="fragment_oneitems_buttons_layout_height">250dp</dimen>
@@ -26,7 +27,19 @@
 
     <!-- related to customview_bottom_buttons -->
     <dimen name="customview_bottom_buttons_smaller_height_and_width">50dp</dimen>
-    <dimen name="customview_bottom_buttons_marginleft">30dp</dimen>
-    <dimen name="customview_bottom_buttons_marginright">30dp</dimen>
+    <dimen name="customview_bottom_buttons_marginleft">50dp</dimen>
+    <dimen name="customview_bottom_buttons_marginright">50dp</dimen>
+
+    <dimen name="customview_bottom_buttons_puls_minus_margin">50dp</dimen>
+    <dimen name="customview_bottom_buttons_plus_minus_tv_width">60dp</dimen>
+    <dimen name="customview_bottom_buttons_show_tv_width">0dp</dimen>
+    <dimen name="customview_bottom_buttons_tv_textsize">20sp</dimen>
+    <dimen name="customview_bottom_buttons_height">50dp</dimen>
+
+
+    <!-- related to snappingstepper_ -->
+    <dimen name="snappingstepper_width_button">30dp</dimen>
+    <dimen name="snappingstepper_padding_button">10dp</dimen>
+    <dimen name="snappingstepper_textSize">15sp</dimen>
 
 </resources>

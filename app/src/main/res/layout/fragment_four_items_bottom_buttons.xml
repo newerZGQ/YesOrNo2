@@ -12,13 +12,13 @@
         android:layout_marginEnd="@dimen/fragment_oneitems_bottom_buttons_margin_to_center"
         android:background="@drawable/fragment_three_items_btom_btn_bg_mode"
         android:dropDownHorizontalOffset="-40dp"
-        android:dropDownVerticalOffset="-200dp"
+        android:dropDownVerticalOffset="-130dp"
         android:entries="@array/fragment_three_items_spinner_title"/>
     <TextView
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:clickable="true"
-        android:background="@drawable/myview_bottom_buttons_icon_start"
+        android:background="@drawable/fragment_four_items_btom_btn_bg_start"
         android:id="@+id/bottom_buttons_2"
         android:layout_width="60dp"
         android:layout_height="60dp" />

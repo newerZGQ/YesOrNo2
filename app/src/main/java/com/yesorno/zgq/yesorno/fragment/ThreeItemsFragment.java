@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
@@ -125,6 +127,13 @@ public class ThreeItemsFragment extends Fragment {
         resetButton = (TextView) view.findViewById(R.id.bottom_buttons_3);
     }
     private void setViewContent(){
+        circularProgress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Animation shake = AnimationUtils.loadAnimation(getActivity(), R.anim.shake_x);//加载动画资源文件
+                circularProgress.startAnimation(shake); //给组件播放动画效果
+            }
+        });
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

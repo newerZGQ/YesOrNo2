@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/bottom_buttons_1"
+        android:clickable="true"
+        android:layout_width="@dimen/customview_bottom_buttons_smaller_height_and_width"
+        android:layout_height="@dimen/customview_bottom_buttons_smaller_height_and_width"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/bottom_buttons_2"
+        android:layout_marginEnd="@dimen/fragment_oneitems_bottom_buttons_margin_to_center"
+        android:text="M"
+        android:textSize="30sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/fragment_custom_items_btom_btn_bg_setting"
+        />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:background="@drawable/fragment_custom_items_btom_btn_bg_start"
+        android:id="@+id/bottom_buttons_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_toEndOf="@+id/bottom_buttons_2"
+        android:layout_marginStart="@dimen/fragment_oneitems_bottom_buttons_margin_to_center"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:id="@+id/bottom_buttons_3"
+        android:background="@drawable/fragment_one_items_btom_btn_bg_reset"
+        android:layout_width="@dimen/customview_bottom_buttons_smaller_height_and_width"
+        android:layout_height="@dimen/customview_bottom_buttons_smaller_height_and_width" />
+
+    <LinearLayout
+        android:id="@+id/rdbtn_group"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/customview_bottom_buttons_height">
+        <TextView
+            android:id="@+id/minus_tv"
+            android:text="@string/ctm_items_minus_title"
+            android:textSize="@dimen/customview_bottom_buttons_tv_textsize"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginStart="@dimen/customview_bottom_buttons_puls_minus_margin"
+            android:layout_width="@dimen/customview_bottom_buttons_plus_minus_tv_width"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/show_count_tv"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="@dimen/customview_bottom_buttons_tv_textsize"
+            android:layout_width="@dimen/customview_bottom_buttons_show_tv_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/plus_tv"
+            android:text="@string/ctm_items_plus_title"
+            android:textSize="@dimen/customview_bottom_buttons_tv_textsize"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginEnd="@dimen/customview_bottom_buttons_puls_minus_margin"
+            android:layout_width="@dimen/customview_bottom_buttons_plus_minus_tv_width"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>
